@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  box-sizing: border-box;
+  background-image: linear-gradient(#AFEEEE, #FFFFE0);
+}
+
+.comentario {
+  border: solid 1px black;
+  width: 834px;
+  height: 123px;
+  background-color: #D9D9D9;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  color: #959595;
+  margin-top: 26px;
+}
+
+.img_comp_header {
+  max-width: 76px;
+  max-height: 76px;
+  border: solid 1px black;
+  border-radius: 50%;
+  margin-top: 14px;
+  margin-left: 24px;
+}
+
+.botao_vermelho {
+  border: solid 1px black;
+  border-radius: 16px;
+  width: 726px;
+  height: 40px;
+  text-align: center;
+  background-color: #FF0000;
+  box-shadow: 0 4px 1px rgba(0, 0, 0, 0.1);
+  margin-top: 21px;
+}
+
+.botao_verde {
+  border: solid 1px black;
+  border-radius: 16px;
+  width: 726px;
+  height: 40px;
+  text-align: center;
+  background-color: #00FF00;
+  box-shadow: 0 4px 1px rgba(0, 0, 0, 0.1);
+  margin-top: 21px;
+}
+
+.entrar {
+  text-decoration: none;
+  height: 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.confirmacao {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  color: black;
+}
